@@ -73,19 +73,19 @@
   </build>
     <repositories>
       <repository>
-        <id>maven-group</id>
-        <url>http://your-host:8081/repository/maven-group/</url>
+        <id>mymaven-group</id>
+        <url>http://3.88.11.98:8081/repository/mymaven-group/</url>
       </repository>
     </repositories>
 
     <distributionManagement>
       <snapshotRepository>
-        <id>maven-snapshots</id>
-        <url>http://your-host:8081/repository/maven-snapshots/</url>
+        <id>mymaven-snapshot</id>
+        <url>http://3.88.11.98:8081/repository/mymaven-snapshot/</url>
       </snapshotRepository>
       <repository>
-        <id>maven-releases</id>
-        <url>http://your-host:8081/repository/maven-releases/</url>
+        <id>mymaven-release</id>
+        <url>http://3.88.11.98:8081/repository/mymaven-release/</url>
       </repository>
     </distributionManagement>
   </project>
