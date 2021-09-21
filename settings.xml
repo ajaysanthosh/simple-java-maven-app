@@ -18,8 +18,10 @@
 
   <mirrors>
     <mirror>
-      <id>mymaven-central</id>
-      <name>mymaven-central</name>
+      <id>central</id>
+      <name>central</name>
+      <username>admin</username>
+      <password>123</password>
       <url>http://3.88.11.98:8081/repository/mymaven-central/</url>
       <mirrorOf>*</mirrorOf>
     </mirror>
