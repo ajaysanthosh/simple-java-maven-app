@@ -15,7 +15,14 @@
       <password>123</password>
     </server>
   </servers>
-
+  <mirrors>
+    <mirror>
+      <id>central</id>
+      <name>central</name>
+      <url>http://3.88.11.98:8081/repository/maven-group/</url>
+      <mirrorOf>*</mirrorOf>
+    </mirror>
+  </mirrors>
 
 
 
